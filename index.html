@@ -20,6 +20,7 @@
 </style>
   <style>
 /* V2: automotive display surfaces, neutral light, production-style hierarchy. */
+.experience-guide{margin:0 0 16px;border:1px solid #303a48;border-radius:8px;background:#141b24}.experience-intro{padding:12px 16px;display:flex;gap:16px;align-items:center;border-bottom:1px solid #283340}.experience-intro>span{font-size:12px;color:#91a6c3;white-space:nowrap}.experience-intro>strong{font-size:15px;font-weight:500;flex:1}.experience-intro button{padding:10px 16px;border-radius:5px;background:#78abed;color:#101d30;font-size:13px;white-space:nowrap}.experience-step{padding:12px 16px;display:flex;align-items:center;gap:14px;min-height:72px}.experience-count{font-size:21px;color:#8db9f1;min-width:42px}.experience-step strong{font-size:14px;font-weight:500;color:#e4edfa}.experience-step p{font-size:12px;line-height:1.6;margin:5px 0 0;color:#93a4bc}.experience-label{margin-left:auto;white-space:nowrap;font-size:10px;color:#71839b}.presentation .screen-holder{height:calc(100dvh - 305px)}.presentation .screen-holder:fullscreen{height:100dvh}@media(max-width:850px){.experience-intro{flex-wrap:wrap;gap:10px}.experience-intro>strong{flex-basis:70%}.experience-label{display:none}.presentation .screen-holder{height:calc(100dvh - 350px)}}
 :root{--bg:#000;--panel:#17191e;--panel2:#22252b;--line:#33363e;--white:#f5f6f8;--muted:#949aa6;--orange:#5b9dff;--green:#81cfac;--ink:#14161c;--font:"PingFang SC","Helvetica Neue","Microsoft YaHei",sans-serif}
 body{background:#111214}.presentation{max-width:1760px;padding-top:18px}.demo-header{margin-bottom:16px}.demo-brand strong{font-size:15px;letter-spacing:1px}.demo-brand strong span{font-size:10px;color:#8a8e98}.demo-brand p{color:#747985;letter-spacing:0;font-size:10px}.brand-mark{width:34px;height:34px;border:0;border-radius:9px;background:#262b35;font-size:20px;color:#d4dfed}.demo-tools button,.period-control{border-radius:7px;background:#1b1d22;border-color:#34363c}.screen-holder{border-radius:13px;border:5px solid #090a0c;background:#000;box-shadow:0 0 0 1px #31343b,0 20px 60px #0008;height:calc(100dvh - 132px)}.screen{background:#000}.app{background:#000}.status-bar{background:#000;height:50px;border:0;padding:0 25px;font-size:13px}.status-left{gap:14px}.status-right{gap:16px}.status-middle{font-size:12px}.driver-avatar{width:24px;height:24px;border-radius:5px;background:linear-gradient(145deg,#9da8b6,#505965);color:#fff;font-size:13px;display:grid;place-items:center}.gear-strip{display:flex;gap:9px;align-items:center;letter-spacing:1px;font-size:12px;color:#646b75;border:1px solid #363b44;padding:3px 7px;border-radius:3px}.gear-strip .selected{color:white}.status-ready{font-size:11px;letter-spacing:1px;color:#70bca0}.range-number{font-size:14px;color:#c7cdd7}.range-number small{font-size:10px}.battery{gap:8px}.battery-meter{height:4px;width:52px;border-radius:3px;display:block;background:#333943;overflow:hidden}.battery-meter i{width:68%;height:100%;background:#78bf9c;display:block}.status-right .weather{display:flex;gap:6px;align-items:center;font-size:13px;color:#b7bdc7}.status-right .weather .icon{width:17px;height:17px}.status-right .time{font-size:14px}.status-icon{display:grid;place-items:center;padding:0;color:#a5adb8}.status-icon .icon{width:16px;height:16px}.signal{transform:scale(.8)}.online-badge{border-radius:20px;padding:5px 12px;gap:6px;background:#10271c6b;border:1px solid #2c5744;color:#9ad6b5;font-size:12px}.online-badge i{width:5px;height:5px;background:#82c9a4}.online-badge.offline{background:#23293660;border-color:#444d60;color:#c0c8d5}.online-badge.offline i{background:#8e9eb9}.online-badge.busy{border-color:#355483;color:#90bfff;background:#14274580}.dock{background:#08090c;border-top:1px solid #252831;height:88px;grid-template-columns:300px 1fr 260px;padding:0 24px}.dock-nav{gap:10px}.dock-nav button{min-width:76px;height:61px;border-radius:10px;color:#818895;gap:5px;font-size:11px}.dock-nav button.active{background:#1a1e26;color:#eef3ff}.dock-nav button.active:before{display:none}.dock-nav button.active .icon{color:#88b9ff}.dock-nav .icon{width:25px;height:25px;stroke-width:1.55}.climate{gap:6px}.climate.right{gap:19px}.climate>button{min-width:31px;height:40px}.climate>button .icon{width:19px;height:19px}.climate>button.temp{font-size:24px;font-weight:400;min-width:72px;letter-spacing:0;color:#f0f3f8}.climate .temp span{font-size:17px;color:#c3cad5}.climate .muted{color:#c0c8d6}.auto-label{font-size:10px;color:#697785;margin-left:7px}.fan-level{font-size:11px;color:#858f9d;margin-left:5px}.climate.right button{display:flex;align-items:center;justify-content:center}.primary{background:#e6ecf5;border-color:#e6ecf5;color:#171d27;font-size:17px;min-height:50px;border-radius:9px;font-weight:500}.primary.accent{background:#397be8;border-color:#397be8;color:white}.primary.accent:hover:not(:disabled){background:#4c90fc;border-color:#4c90fc}.primary:hover:not(:disabled){background:#fff;border-color:#fff}.secondary{border:1px solid #3a424f;background:#262b34;border-radius:9px;color:#dde4ef;font-size:15px}.secondary:hover{background:#333a46}.icon-button{background:#282e38;border-color:#3f4652;border-radius:9px;color:#b6c6dd}.icon-button.saved{color:#6daaff;border-color:#477ab8}.eyebrow{font-size:12px;letter-spacing:0;color:#858d9b}.page-pad{background:#050608;padding:25px 30px 24px}.page-heading{margin-bottom:24px}.page-heading .eyebrow{display:none}.page-heading h1{font-size:26px;font-weight:500;letter-spacing:0}.page-heading p{font-size:13px;color:#747f90;margin-top:8px}.parked-label{padding:8px 13px;font-size:12px;border-radius:7px;border-color:#343f3c;color:#a9bcba}.parked-label strong{font-size:16px}.page-heading+.hub-grid,.page-pad .orders-layout,.page-pad .controls-layout{height:calc(100% - 85px)}
 /* Vehicle home */
@@ -41,6 +42,10 @@ body{background:#111214}.presentation{max-width:1760px;padding-top:18px}.demo-he
         <button id="demo-event">模拟来单</button><button id="demo-reset" class="quiet">重置</button><button id="demo-full" class="quiet" aria-label="全屏展示">全屏</button>
       </div>
     </header>
+    <section class="experience-guide" aria-label="原型体验引导，非车机界面">
+      <div class="experience-intro"><span>体验场景 · 午间吃饭</span><strong>候单时饿了，去哪停、怎么吃、来单了怎么办？</strong><button id="demo-start">从找吃饭的地方开始 →</button></div>
+      <div class="experience-step" id="experience-step" aria-live="polite"></div>
+    </section>
     <main id="screen-holder" class="screen-holder" aria-label="司机座舱交互原型">
       <div id="screen" class="screen">
         <header id="status-bar" class="status-bar"></header>
@@ -144,6 +149,7 @@ body{background:#111214}.presentation{max-width:1760px;padding-top:18px}.demo-he
   function renderApp(){
     const views={home:homePage,map:mapPage,detail:detailPage,navigation:navigationPage,hub:hubPage,rest:restPage,away:awayPage,recovery:recoveryPage,orders:ordersPage,controls:controlsPage};
     $('#app').innerHTML=(views[s.page]||mapPage)();
+    updateExperience();
   }
   function homePage(){
     const p=pointList()[0];
@@ -216,8 +222,8 @@ body{background:#111214}.presentation{max-width:1760px;padding-top:18px}.demo-he
       <g transform="translate(875 548)"><circle r="36" fill="#e9eddf" fill-opacity=".06"/><circle r="24" fill="#e9eddf" fill-opacity=".06"/><path d="m0-16 12 29-12-5-12 5L0-16Z" fill="#f0f0df" stroke="#242d2c" stroke-width="2"/></g>
       <g fill="#7f9082" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif"><text x="625" y="192">社区生活区</text><text x="1160" y="120">望江片区</text><text x="665" y="609">科华生活区</text></g></svg>`;
   }
-  function openOverlay(type){s.focusReturn=document.activeElement;s.overlay=type;renderOverlay();requestAnimationFrame(()=>{const root=$('#overlay-root');const target=root.querySelector('.modal .primary')||root.querySelector('button');target?.focus();});}
-  function closeOverlay(){s.overlay=null;renderOverlay();if(s.focusReturn?.isConnected)s.focusReturn.focus();}
+  function openOverlay(type){s.focusReturn=document.activeElement;s.overlay=type;renderOverlay();updateExperience();requestAnimationFrame(()=>{const root=$('#overlay-root');const target=root.querySelector('.modal .primary')||root.querySelector('button');target?.focus();});}
+  function closeOverlay(){s.overlay=null;renderOverlay();updateExperience();if(s.focusReturn?.isConnected)s.focusReturn.focus();}
   function renderOverlay(){
     if(!s.overlay){$('#overlay-root').innerHTML='';return;}
     let body='',cls='';
@@ -240,6 +246,19 @@ body{background:#111214}.presentation{max-width:1760px;padding-top:18px}.demo-he
     const btn=$('#demo-event');
     btn.textContent=s.page==='navigation'?(s.nav==='spot'?'模拟到达':s.nav==='pickup'?'模拟乘客上车':'模拟送达'):'模拟来单';
     $('#demo-period').value=s.period;
+    updateExperience();
+  }
+  function updateExperience(){
+    let step=0,heading='先从上方蓝色按钮开始',hint='这条体验路线展示：找停靠点 → 在车内用餐 → 来单后收好空间，再接驾。';
+    if(s.page==='map'){step=1;heading='点左侧任意一个地点';hint='看停车条件、附近餐食和卫生间，选择能同时候单和补给的落脚点。';}
+    if(s.page==='detail'){step=1;heading='看完停车与设施信息，点「前往这里」';hint='这里解决的是“在哪停下来吃饭”，地点与设施均为示例数据。';}
+    if(s.page==='navigation'){step=s.nav==='spot'?1:4;heading=s.nav==='spot'?'点车机左侧「已到达，进入驻点」':s.nav==='pickup'?'点「已接到乘客」，继续体验订单流程':'点「确认送达，完成行程」';hint=s.nav==='spot'?'原型用按钮模拟到达；到达后才设置用餐空间。':'用餐 → 整理空间 → 接驾的流程已经串起来了。';}
+    if(s.page==='hub'){step=2;heading=s.configMode==='meal'?(s.keepOnline?'已选择继续候单，点「保持候单，开始用餐」':'打开「用餐时继续候单」→ 点「保持候单，开始用餐」'):'选择时长，再点下方蓝色按钮开始';hint=s.configMode==='meal'?'先体验继续候单的分支：桌板与灯光切换到用餐状态，仍可接收订单。也可以选择暂停。':'短休或离车会模拟暂停接单；计时结束也不会自动恢复。';}
+    if(s.rest){step=3;heading=s.online?'点网页右上角「模拟来单」，再点「接受订单」':'可点「模拟来单」检验暂停状态，再结束休整';hint=s.online?'看用餐被打断时，系统如何先引导收好桌板、调整座椅，再前往接客。':'暂停时不会弹出订单。真实平台能否支持、对派单有何影响，仍需验证。';}
+    if(s.page==='recovery'){step=4;heading='逐项确认三项准备，再点底部蓝色按钮';hint='把桌板、座椅和工作状态衔接起来；这是主动自检，系统没有检测车辆或人的实际状态。';}
+    if(s.overlay==='incoming'){step=3;heading='点订单弹窗中的「接受订单」';hint=s.rest?'接受后先进入驾驶准备，不会直接从用餐状态跳到接驾。':'接受后进入接驾流程。';}
+    if(s.overlay==='complete'){step=4;heading='体验完成：可以继续候单，也可以再安排休整';hint='方案关注找落脚点、用餐空间和回到工作的连续体验；并未解决平台派单规则。';}
+    $('#experience-step').innerHTML=`<span class="experience-count">${step?String(step).padStart(2,'0'):'起点'}</span><div><strong>${heading}</strong><p>${hint}</p></div><span class="experience-label">网页体验提示 · 非车机内容</span>`;
   }
   function goHub(){
     if(s.order){toast('当前订单尚未完成，请先完成服务。');return;}
@@ -341,6 +360,7 @@ body{background:#111214}.presentation{max-width:1760px;padding-top:18px}.demo-he
   });
   $('#demo-event').addEventListener('click',()=>{if(s.page==='navigation'){if(s.nav==='spot')arrived();else if(s.nav==='pickup')pickedUp();else if(s.nav==='dropoff')finishOrder();}else requestOrder();});
   $('#demo-reset').addEventListener('click',()=>{s=initial();render();toast('演示已重置。');});
+  $('#demo-start').addEventListener('click',()=>{s=initial();s.page='map';s.filter='food';render();});
   $('#demo-guide').addEventListener('click',()=>openOverlay('guide'));
   $('#demo-period').addEventListener('change',e=>{
     if(s.order||s.rest||s.nav||s.page==='recovery'){e.target.value=s.period;toast('请先完成当前流程，再切换演示时段。');return;}
